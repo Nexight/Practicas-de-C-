@@ -160,4 +160,4 @@ Console.WriteLine($"'o' appears {letterCount} times.");
 // Console.WriteLine($"Total: {total}");
 
 #endregion
-Console.WriteLine($"Fin?");
+Console.WriteLine($"Fin.");
