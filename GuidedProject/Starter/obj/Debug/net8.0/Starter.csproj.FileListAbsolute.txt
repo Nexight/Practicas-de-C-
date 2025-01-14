@@ -1,0 +1,14 @@
+D:\repositorios\Practicas de C#\GuidedProject\Starter\bin\Debug\net8.0\Starter.exe
+D:\repositorios\Practicas de C#\GuidedProject\Starter\bin\Debug\net8.0\Starter.deps.json
+D:\repositorios\Practicas de C#\GuidedProject\Starter\bin\Debug\net8.0\Starter.runtimeconfig.json
+D:\repositorios\Practicas de C#\GuidedProject\Starter\bin\Debug\net8.0\Starter.dll
+D:\repositorios\Practicas de C#\GuidedProject\Starter\bin\Debug\net8.0\Starter.pdb
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.AssemblyInfoInputs.cache
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.AssemblyInfo.cs
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.csproj.CoreCompileInputs.cache
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.dll
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\refint\Starter.dll
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.pdb
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\Starter.genruntimeconfig.cache
+D:\repositorios\Practicas de C#\GuidedProject\Starter\obj\Debug\net8.0\ref\Starter.dll

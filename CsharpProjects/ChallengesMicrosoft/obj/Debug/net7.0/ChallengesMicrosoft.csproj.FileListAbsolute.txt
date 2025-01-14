@@ -1,0 +1,14 @@
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.AssemblyInfoInputs.cache
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.AssemblyInfo.cs
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.csproj.CoreCompileInputs.cache
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\bin\Debug\net7.0\ChallengesMicrosoft.exe
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\bin\Debug\net7.0\ChallengesMicrosoft.deps.json
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\bin\Debug\net7.0\ChallengesMicrosoft.runtimeconfig.json
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\bin\Debug\net7.0\ChallengesMicrosoft.dll
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\bin\Debug\net7.0\ChallengesMicrosoft.pdb
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.dll
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\refint\ChallengesMicrosoft.dll
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.pdb
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.genruntimeconfig.cache
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ref\ChallengesMicrosoft.dll
