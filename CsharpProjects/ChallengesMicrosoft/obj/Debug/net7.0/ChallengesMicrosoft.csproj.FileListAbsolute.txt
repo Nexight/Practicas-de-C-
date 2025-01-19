@@ -12,3 +12,4 @@ D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net
 D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.pdb
 D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.genruntimeconfig.cache
 D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ref\ChallengesMicrosoft.dll
+D:\repositorios\Practicas de C#\CsharpProjects\ChallengesMicrosoft\obj\Debug\net7.0\ChallengesMicrosoft.sourcelink.json
