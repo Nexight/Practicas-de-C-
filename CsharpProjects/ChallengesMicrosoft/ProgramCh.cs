@@ -162,23 +162,90 @@ Console.WriteLine($"'o' appears {letterCount} times.");
 #endregion
 #region Challenge FizzBuzz (uso de for e if)
 
-for( int i = 1 ; i <= 100 ; i++)
-{
-    if(i % 3 == 0 && i % 5 != 0)
-    {
-        Console.WriteLine($"{i} - Fizz");
-    }else if(i % 5 == 0 && i % 3 != 0)
-    {
-        Console.WriteLine($"{i} - Buzz");
-    }else if(i % 5 == 0 && i % 3 == 0)
-    {
-        Console.WriteLine($"{i} - FizzBuzz");
-    }else
-    {
-        Console.WriteLine(i);
-    }
+// for( int i = 1 ; i <= 100 ; i++)
+// {
+//     if(i % 3 == 0 && i % 5 != 0)
+//     {
+//         Console.WriteLine($"{i} - Fizz");
+//     }else if(i % 5 == 0 && i % 3 != 0)
+//     {
+//         Console.WriteLine($"{i} - Buzz");
+//     }else if(i % 5 == 0 && i % 3 == 0)
+//     {
+//         Console.WriteLine($"{i} - FizzBuzz");
+//     }else
+//     {
+//         Console.WriteLine(i);
+//     }
     
-}
+// }
 
+#endregion
+#region  minijuego batalla usando while y do-while
+/*
+    Estas son las reglas para el juego de batalla que necesita implementar en el proyecto de código:
+
+    * Debes usar la instrucción do-while o la instrucción while como un bucle de juego externo.
+    * El héroe y el monstruo comenzarán con 10 puntos de salud.
+    * Todos los ataques tendrán un valor comprendido entre 1 y 10.
+    * El héroe ataca primero.
+    * Imprima la cantidad de salud que ha perdido el monstruo y su salud restante.
+    * Si la salud del monstruo es mayor que 0, puede atacar al héroe.
+    * Imprima la cantidad de salud que ha perdido el héroe y su salud restante.
+    * Continúe con esta secuencia de ataque hasta que la salud del monstruo o del héroe sea cero o menos.
+    * Imprima el ganador.
+*/
+Personaje Nico = new Personaje("Nicolás",10,0);
+Personaje monstruo = new Personaje ("Manticora",10,0);
+do
+{
+    Nico.Atacar();
+    monstruo.RecibirDaño(Nico.Ataque);
+    monstruo.VidaCheck();
+
+    if (monstruo.Vida <= 0) {continue;}
+    
+    monstruo.Atacar();
+    Nico.RecibirDaño(monstruo.Ataque);
+    Nico.VidaCheck();
+
+} while (Nico.Vida > 0 && monstruo.Vida > 0);
+
+// if(Nico.Vida>0)
+//     Console.WriteLine($"{Nico.Nombre} ha triunfado sobre {monstruo.Nombre}!");
+
+// else if (monstruo.Vida > 0)
+
+//     Console.WriteLine($"El monstruo {monstruo.Nombre} ha derrotado a {Nico.Nombre}!");
+
+Console.WriteLine( Nico.Vida > monstruo.Vida ? $"{Nico.Nombre} ha derrotado a {monstruo.Nombre}!!": $"El enemigo {monstruo.Nombre} ha derrotado a {Nico.Nombre}!");
+public class Personaje
+{
+    public string Nombre {get ; private set;}
+    Random random = new Random();
+    public int Vida {get ; private set;}
+    public int Ataque{get ; private set;}
+    public Personaje (string nombre,int vida, int ataque)
+    {
+        Nombre=nombre;
+        Vida=vida;
+        Ataque=ataque;
+    }
+    public void Atacar()
+    {
+        Ataque = random.Next(1,10);
+    }
+    public void RecibirDaño(int daño)
+    {
+        Vida -= daño;
+        Console.WriteLine($"{Nombre} ha perdido {daño} de vida!");
+    }
+    public void VidaCheck()
+    {
+        if(Vida < 0)
+            Vida=0;
+        Console.WriteLine($"La vida actual de {Nombre} es : {Vida}. ");
+    }
+}
 #endregion
 //Console.WriteLine($"Fin.");
