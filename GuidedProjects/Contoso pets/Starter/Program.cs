@@ -150,7 +150,7 @@ do
 
                 if(petCount < maxPets) //Revisa el limite de maxPets
                 {
-                    Console.WriteLine($"Do you want to enter infor for another pet (y/n)");
+                    Console.WriteLine($"Do you want to enter info for another pet (y/n)");
                 }
                 do
                 {
@@ -209,16 +209,15 @@ do
                   {
                     Console.WriteLine($"Enter a physical descrpition of the pet (size, color, gender, weight, housebroken)");
                     readResult = Console.ReadLine();
-                    if(readResult !=null)
+                    if(readResult != null)
                     {
                         animalPhysicalDescription = readResult.ToLower();
                         if(animalPhysicalDescription == "")
                         {
-                            animalPersonalityDescription = "tbd";
+                            animalPhysicalDescription = "tbd";
                         }
                     }
-
-                  } while (animalPersonalityDescription == "");
+                  } while (animalPhysicalDescription == "");
                     //get a description of the pet's personality - animalPersonalityDescripyion can be blank.
                   do
                   {
@@ -259,7 +258,6 @@ do
 
                 } while (anotherPet != "y" && anotherPet != "n");
             }
-
             if (petCount >= maxPets)
             {
                 Console.WriteLine("We have reached our limit on the number of pets that we can manage");
