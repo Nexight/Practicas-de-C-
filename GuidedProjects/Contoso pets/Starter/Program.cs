@@ -181,6 +181,8 @@ do
                         }
 
                     } while (validEntry == false);
+                  
+                  animalID = animalSpecies.Substring(0,1) + (petCount + 1).ToString();
 
                 } while (anotherPet != "y" && anotherPet != "n");
             }
