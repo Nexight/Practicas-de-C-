@@ -274,8 +274,21 @@ do
             break;
         case "4":
             //Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
-            Console.WriteLine("Press the Enter key to continue.");
+            
+            for (int i = 0; i < maxPets; i ++)
+            {
+                if(ourAnimals[i,0] != "ID #: ")
+                {
+                    Console.WriteLine(ourAnimals[i,0]);
+                    for(int j = 0; j < 6; j++)
+                    {
+                        if(ourAnimals[i,j].ToString() == "?" || ourAnimals[i,j].ToString() == "")
+                        {
+                            Console.WriteLine($"{}")
+                        }
+                    }
+                }
+            }
             readResult = Console.ReadLine();
             break;
         case "5":
