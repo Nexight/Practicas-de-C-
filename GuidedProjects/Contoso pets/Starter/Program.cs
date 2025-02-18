@@ -282,9 +282,54 @@ do
                     Console.WriteLine(ourAnimals[i,0]);
                     for(int j = 0; j < 6; j++)
                     {
-                        if(ourAnimals[i,j].ToString() == "?" || ourAnimals[i,j].ToString() == "")
+                        if(ourAnimals[i,j].ToString() == "Nickname: ")
                         {
-                            Console.WriteLine($"{}")
+                            Console.WriteLine($"It seems this pet doesn't have a nickname yet. Do you want to add a nickname for {ourAnimals[i,0]}? y/n");  
+                            readResult = Console.ReadLine();  
+                            if(readResult == "y")
+                            {
+                                do
+                                {
+                                    Console.WriteLine($"Enter a nickname for the pet");
+                                    readResult = Console.ReadLine();
+                                    if(readResult != null)
+                                    {
+                                        animalNickname = readResult.ToLower();
+                                        if(animalNickname == "")
+                                        {
+                                            animalNickname = "tbd";
+                                        }
+                                    }
+                                } while (animalNickname == "");
+                                
+                            }  else if (readResult == "n")
+                            {
+                                Console.WriteLine("Understood.");
+                            }                                                   
+                        }else if(ourAnimals[i,j].ToString() == "Personality: ")
+                        {   
+                            Console.WriteLine($"Personality data is empty. Do you want to complete it?  y/n");
+                            readResult = Console.ReadLine();   
+                            if(readResult == "y"|| readResult =="yes")
+                            {
+                                do
+                                {
+                                    Console.WriteLine($"Enter a description of the pet's personality (likes or dislikes, tricks, energy level)");
+                                    readResult = Console.ReadLine();
+                                    if(readResult != null)
+                                    {
+                                        animalPersonalityDescription = readResult.ToLower();
+                                        if(animalPersonalityDescription == "")
+                                        {
+                                            animalPersonalityDescription = "tbd";
+                                        }
+                                    }
+                                } while (animalPersonalityDescription == "");
+                            }  else if (readResult == "n")
+                            {
+                                Console.WriteLine("Understood.");
+                            }                                      
+                            
                         }
                     }
                 }
