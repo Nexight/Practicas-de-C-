@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChallengesMicrosoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+235f8f03710d611cefd3963cdc20881f0764bf18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+499be3a0dd76bfaf79bc4f6e66db8361b0603785")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChallengesMicrosoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChallengesMicrosoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
