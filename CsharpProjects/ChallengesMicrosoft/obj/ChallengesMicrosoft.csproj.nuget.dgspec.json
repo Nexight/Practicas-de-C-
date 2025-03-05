@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repositorios\\Practicas de C#\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj": {}
+    "G:\\repositorios\\Practicas-de-C-\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj": {}
   },
   "projects": {
-    "D:\\repositorios\\Practicas de C#\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj": {
+    "G:\\repositorios\\Practicas-de-C-\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repositorios\\Practicas de C#\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj",
+        "projectUniqueName": "G:\\repositorios\\Practicas-de-C-\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj",
         "projectName": "ChallengesMicrosoft",
-        "projectPath": "D:\\repositorios\\Practicas de C#\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj",
-        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
-        "outputPath": "D:\\repositorios\\Practicas de C#\\CsharpProjects\\ChallengesMicrosoft\\obj\\",
+        "projectPath": "G:\\repositorios\\Practicas-de-C-\\CsharpProjects\\ChallengesMicrosoft\\ChallengesMicrosoft.csproj",
+        "packagesPath": "C:\\Users\\nicob\\.nuget\\packages\\",
+        "outputPath": "G:\\repositorios\\Practicas-de-C-\\CsharpProjects\\ChallengesMicrosoft\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nicob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -76,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
