@@ -1,0 +1,15 @@
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\bin\Debug\net9.0\ChallengesMicrosoft.exe
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\bin\Debug\net9.0\ChallengesMicrosoft.deps.json
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\bin\Debug\net9.0\ChallengesMicrosoft.runtimeconfig.json
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\bin\Debug\net9.0\ChallengesMicrosoft.dll
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\bin\Debug\net9.0\ChallengesMicrosoft.pdb
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.GeneratedMSBuildEditorConfig.editorconfig
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.AssemblyInfoInputs.cache
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.AssemblyInfo.cs
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.csproj.CoreCompileInputs.cache
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.sourcelink.json
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.dll
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\refint\ChallengesMicrosoft.dll
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.pdb
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ChallengesMicrosoft.genruntimeconfig.cache
+G:\repositorios\Practicas-de-C-\CsharpProjects\ChallengesMicrosoft\obj\Debug\net9.0\ref\ChallengesMicrosoft.dll

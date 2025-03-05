@@ -363,33 +363,72 @@ En el bucle interno, la solución no debe mostrar el carácter de punto.
 En el bucle interno, la solución debe usar los métodos Remove(), Substring() y TrimStart() para procesar la información de cadena.
 */
 
-string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+// string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 
-int periodLocation = 0;
+// int periodLocation = 0;
 
-string myString ="";
+// string myString ="";
 
-foreach(string sentence in myStrings)
+// foreach(string sentence in myStrings)
+// {
+//     myString = sentence;
+//     periodLocation = myString.IndexOf(".");
+
+//     string mySentence;
+
+//     while(periodLocation != -1)
+//     {
+//         mySentence = myString.Remove(periodLocation);
+
+//         myString = myString.Substring(periodLocation +1);
+
+//         myString = myString.TrimStart();
+
+//         periodLocation = myString.IndexOf(".");
+
+//         Console.WriteLine($"{mySentence}");
+//     }
+//     mySentence=myString.Trim();
+//     Console.WriteLine(mySentence);
+// }
+#endregion
+#region Complete un desafío para invertir las palabras de una oración
+
+// string pangram = "The quick brown fox jumps over the lazy dog";
+
+// string[] words = pangram.Split(' ');
+
+// char[] charArray;
+// foreach(string word in words)
+// {
+//     charArray = word.ToCharArray();
+//     Array.Reverse(charArray);
+//     Console.Write($"{new string(charArray)} ");
+// }
+
+// pangram = string.Join(" ",words);
+
+// foreach(string word in words)
+// {
+//     Console.Write(word);
+// }
+#endregion
+#region Analizar una cadena de pedidos, ordenar los pedidos y etiquetar posibles errores
+
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+
+string [] idOrders = orderStream.Split(','); 
+Array.Sort(idOrders);
+foreach(string id in idOrders)
 {
-    myString = sentence;
-    periodLocation = myString.IndexOf(".");
-
-    string mySentence;
-
-    while(periodLocation != -1)
+    if(id.Length != 4)
     {
-        mySentence = myString.Remove(periodLocation);
-
-        myString = myString.Substring(periodLocation +1);
-
-        myString = myString.TrimStart();
-
-        periodLocation = myString.IndexOf(".");
-
-        Console.WriteLine($"{mySentence}");
+        Console.WriteLine($"{id}\t-Error");
     }
-    mySentence=myString.Trim();
-    Console.WriteLine(mySentence);
+    else
+    {
+        Console.WriteLine($"{id}");
+    }
 }
 #endregion
 //Console.WriteLine($"Fin.");
