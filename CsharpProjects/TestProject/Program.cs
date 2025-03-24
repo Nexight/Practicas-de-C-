@@ -129,3 +129,102 @@ char[] caracteres = texto.ToCharArray(); // Convierte la cadena en un arreglo de
 
 */
 #endregion
+#region Formato de cadenas
+
+/*Formato Compuesto
+El formato compuesto es una forma de formatear cadenas en C# utilizando marcadores de posición y argumentos adicionales.
+Puedes utilizar el método string.Format() para aplicar el formato compuesto a una cadena.
+marcadores de posicion: {0}, {1}, {2}, etc.
+
+Ejemplo:
+
+string first = "Hello";
+string second = "World";
+string result = string.Format("{0} {1}!", first, second);
+Console.WriteLine(result);
+-
+Output:
+Hello World!
+-
+Los tipos de datos y las variables de un tipo de datos determinado tienen "métodos auxiliares" integrados para facilitar tareas concretas.
+La cadena literal "{0} {1}!" forma una plantilla, y algunos de sus elementos se reemplazarán en tiempo de ejecución.
+El token {0} se reemplaza por el primer argumento después de la plantilla de cadena, es decir, el valor de la variable first.
+El token {1} se reemplaza por el segundo argumento después de la plantilla de cadena, es decir, el valor de la variable second.
+*/
+
+/*Interpolación de Cadenas
+La interpolación de cadenas es una forma más sencilla y legible de formatear cadenas en C#.
+Puedes utilizar el prefijo $ antes de una cadena para habilitar la interpolación de cadenas.
+En lugar de usar marcadores de posición, puedes insertar directamente variables o expresiones dentro de la cadena.
+
+Ejemplo:
+
+string first = "Hello";
+string second = "World";
+Console.WriteLine($"{first} {second}!");
+Console.WriteLine($"{second} {first}!");
+Console.WriteLine($"{first} {first} {first}!");
+-
+Output:
+Hello World!
+World Hello!
+Hello Hello Hello!
+*/
+/*Formato moneda
+El formato de moneda en C# se puede aplicar utilizando el especificador de formato ":C".
+Puedes utilizar el especificador de formato ":C" con el método string.Format() o la interpolación de cadenas.
+El resultado varia segun la configuracion regional del sistema.
+
+Ejemplo:
+
+decimal price = 123.45m;
+int discount = 50;
+Console.WriteLine($"Price: {price:C} (Save {discount:C})");
+-
+Output:
+Price: $123.45 (Save $50.00)
+*/
+/*Aplicación de formato numérico
+El formato numérico en C# se puede aplicar utilizando especificadores de formato como "N" para números con separadores de miles y decimales.
+El especificador de formato numérico N hace que los números se lean mejor.
+
+Ejemplo:
+
+decimal measurement = 123456.78912m;
+Console.WriteLine($"Measurement: {measurement:N} units");
+-
+Output:
+Measurement: 123,456.789 units
+
+Si se quiere mas precisión, se puede agregar un número después de la N, como en {measurement:N5}.
+*/
+/*Aplicación de formato a porcentajes
+El formato de porcentaje en C# se puede aplicar utilizando el especificador de formato ":P".
+Puedes utilizar el especificador de formato ":P" con el método string.Format() o la interpolación de cadenas.
+
+Ejemplo:
+
+decimal tax = .36785m;
+Console.WriteLine($"Tax rate: {tax:P2}");
+-
+Output:
+Tax rate: 36.79%
+*/
+/*Combinación de enfoques de formato
+Puedes combinar diferentes enfoques de formato en una sola cadena en C#.
+Por ejemplo, puedes aplicar el formato de moneda y el formato de porcentaje a diferentes partes de la cadena.
+
+Ejemplo:
+decimal price = 67.55m;
+decimal salePrice = 59.99m;
+
+string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
+
+yourDiscount += $"A discount of {((price - salePrice)/price):P2}!"; //inserted
+Console.WriteLine(yourDiscount);
+-
+Output:
+You saved $7.56 off the regular $67.55 price. A discount of 11.18%!
+*/
+
+#endregion

@@ -1,0 +1,15 @@
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\bin\Debug\net8.0\Final.exe
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\bin\Debug\net8.0\Final.deps.json
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\bin\Debug\net8.0\Final.runtimeconfig.json
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\bin\Debug\net8.0\Final.dll
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\bin\Debug\net8.0\Final.pdb
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.AssemblyInfoInputs.cache
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.AssemblyInfo.cs
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.csproj.CoreCompileInputs.cache
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.sourcelink.json
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.dll
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\refint\Final.dll
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.pdb
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\Final.genruntimeconfig.cache
+G:\repositorios\Practicas-de-C-\GuidedProjects\Contoso pets\Final\obj\Debug\net8.0\ref\Final.dll
