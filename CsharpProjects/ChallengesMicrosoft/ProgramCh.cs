@@ -414,7 +414,7 @@ En el bucle interno, la solución debe usar los métodos Remove(), Substring() y
 // }
 #endregion
 #region Analizar una cadena de pedidos, ordenar los pedidos y etiquetar posibles errores
-
+/*
 string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
 
 string [] idOrders = orderStream.Split(','); 
@@ -430,5 +430,44 @@ foreach(string id in idOrders)
         Console.WriteLine($"{id}");
     }
 }
+*/
 #endregion
+#region Ejercicio Exploración de la interpolación de cadenas
+/*
+Debe crear el código para imprimir un recibo para que el cliente adquiera participaciones de un producto de inversión.
+Las participaciones se adquieren automáticamente al final del año en función de una serie de deducciones en la nómina, por lo que el número de participaciones adquiridas normalmente contiene un importe decimal.
+Para imprimir el recibo, es probable que sea necesario combinar de forma precisa datos de tipos diferentes, incluidos valores fraccionarios, de moneda y porcentajes.
+*/
+
+// int invoiceNumber = 1201;
+// decimal productShares = 25.4568m;
+// decimal subtotal = 2750.00m;
+// decimal taxPercentage = .15825m;
+// decimal total = 3185.19m;
+
+// Console.WriteLine($"Invoice Number: {invoiceNumber}");
+// Console.WriteLine($"    Shares: {productShares:N3} Product");
+// Console.WriteLine($"  Subtotal: {subtotal:C}");
+// Console.WriteLine($"       Tax: {taxPercentage:P2}");
+// Console.WriteLine($"     Total Billed: {total:C}");
+#endregion
+#region Aplicación de formato a cadenas mediante la adición de espacio en blanco antes o después
+/*PadLeft() y PadRight() 
+Son métodos que se pueden utilizar para agregar espacios en blanco a una cadena para que tenga una longitud específica.
+El método PadLeft() agrega espacios en blanco al lado izquierdo de la cadena para que el número total de caracteres sea igual al argumento que se envía. 
+En este caso, el objetivo es que la longitud total de la cadena sea de 12 caracteres.*/
+
+// string input = "Pad this";
+// string input2 = "Hello World";
+// Console.WriteLine(input.PadLeft(25) + input2.PadLeft(25));
+
+// Console.WriteLine(input.PadLeft(12, '-'));
+// Console.WriteLine(input.PadRight(12, '-'));
+
+/*Output:
+----Pad this
+Pad this----
+*/
+#endregion
+
 //Console.WriteLine($"Fin.");

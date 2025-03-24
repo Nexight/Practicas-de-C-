@@ -228,3 +228,21 @@ You saved $7.56 off the regular $67.55 price. A discount of 11.18%!
 */
 
 #endregion
+#region Bonus! Metodos de string utiles
+/*Metodos
+    Métodos que convierten una cadena en mayúsculas o minúsculas (ToUpper(), ToLower())
+    Métodos que reemplazan o eliminan espacios en blanco (Replace(), Remove())
+    Métodos que agregan espacios en blanco para fines de formato (PadLeft(), PadRight())
+    Métodos que comparan dos cadenas o facilitan la comparación (Trim(), TrimStart(), TrimEnd(), GetHashcode(), la propiedad Length)
+    Métodos que ayudan a determinar lo que está dentro de una cadena, o incluso a recuperar solo una parte de la cadena (Contains(), StartsWith(), EndsWith(), Substring())
+    Métodos que cambian el contenido de la cadena mediante el reemplazo, la inserción o la eliminación de elementos (Replace(), Insert(), Remove())
+    Métodos que convierten una cadena en una matriz de cadenas o caracteres (Split(), ToCharArray())
+*/
+#endregion
+#region Métodos sobrecargados
+/*Métodos sobrecargados
+Los métodos sobrecargados son métodos que tienen el mismo nombre pero diferentes parámetros.
+Esto permite a los desarrolladores utilizar el mismo nombre de método para realizar tareas similares con diferentes tipos de datos o argumentos.
+En C#, un método sobrecargado es otra versión de un método con argumentos distintos o adicionales que modifican ligeramente la funcionalidad del método.
+*/
+#endregion
