@@ -246,3 +246,27 @@ Esto permite a los desarrolladores utilizar el mismo nombre de método para real
 En C#, un método sobrecargado es otra versión de un método con argumentos distintos o adicionales que modifican ligeramente la funcionalidad del método.
 */
 #endregion
+#region métodos auxiliares de cadena IndexOf() y Substring()
+
+/*IndexOf()
+El método IndexOf() se utiliza para encontrar la posición de la primera aparición de un carácter o una subcadena dentro de una cadena.
+Devuelve un entero que representa la posición del primer carácter encontrado.
+Si no se encuentra el carácter o la subcadena, devuelve -1.
+
+Ejemplo:
+
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+Console.WriteLine(openingPosition);
+Console.WriteLine(closingPosition);
+
+Output:
+13
+36
+
+*/
+
+#endregion
